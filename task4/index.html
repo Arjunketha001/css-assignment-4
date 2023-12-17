@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body, p,h1,h2,h3{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            }
+        .container{
+            min-height:100vh;
+            padding-top: 100px;
+            display: flex;
+            justify-content: center;
+            gap:30px;
+            background-color: #fad2fa;
+            box-sizing: border-box;
+        }
+        .free,.pro{
+            background-color: white;
+            height:fit-content;
+            width: 250px;
+            border-radius: 10px;
+            padding-top: 50px;
+            padding-left: 40px;
+        }
+        .h{
+            font-size: 36px;
+            font-weight: 100;
+            margin: 12px 0;
+        }
+        .features{
+            display: flex;
+            align-items: center;
+        }
+        .butt{
+            display: flex;
+            justify-content: center;
+            margin-left: -35px;
+        }
+        .c1{
+            background-color: #202842;
+            color: white;
+            border-radius: 24px;
+            font-size: 18px;
+            padding: 10px 35px;
+            margin: 30px auto;
+            border-color: transparent;
+        }
+        .basic{
+            background-color: #202842;
+            color: white;
+            height:fit-content;
+            width: 250px;
+            border-radius: 10px;
+            padding-top: 50px;
+            padding-left: 40px;
+        }
+        .c2{
+            background-color: white;
+            color: #202842;
+            border-radius: 24px;
+            font-size: 18px;
+            padding: 10px 35px;
+            margin: 30px auto;
+            border-color: transparent;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="free">
+          <h2 style="font-size: 36px;">Free Plan</h2> 
+          <p>For personal</p> 
+          <h2 class="h">$0</h2>
+          <p class="features"><span> <img src="light_tick.png" alt=""></span>1
+            Users</p>
+            <p class="features"><span> <img src="light_tick.png" alt=""></span>4 Web
+            mails</p>
+            <p class="features"><span> <img src="light_tick.png" alt=""></
+            span>Responsive Website</p>
+            <p class="features"><span> <img src="light_tick.png" alt=""></span>Free
+            SSL</p>
+            <div class="butt"><button class="c1"> Subscribe now</button></div>
+
+        </div>
+        <div class="basic">
+            <h2 style="font-size: 36px;">Basic Plan</h2> 
+            <p>For small bussiness</p> 
+            <h2 class="h">$29</h2>
+            <p class="features"><span> <img src="dark_tick.png" alt=""></span>4
+              Users</p>
+              <p class="features"><span> <img src="dark_tick.png" alt=""></span>10 Web
+              mails</p>
+              <p class="features"><span> <img src="dark_tick.png" alt=""></
+              span>Responsive Website</p>
+              <p class="features"><span> <img src="dark_tick.png" alt=""></span>Free
+              SSL</p>
+              <button class="c2"> Subscribe now</button>
+  
+        </div>
+        <div class="pro">
+            <h2 style="font-size: 36px;">Pro Plan</h2> 
+            <p>For enterprise</p> 
+            <h2 class="h">$49</h2>
+            <p class="features"><span> <img src="light_tick.png" alt=""></span>Unlimited
+              Users</p>
+              <p class="features"><span> <img src="light_tick.png" alt=""></span>Unlimited Web
+              mails</p>
+              <p class="features"><span> <img src="light_tick.png" alt=""></
+              span>Responsive Website</p>
+              <p class="features"><span> <img src="light_tick.png" alt=""></span>Free
+              SSL + SEO</p>
+              <div class="butt"><button class="c1"> Subscribe now</button></div>
+        </div>
+    </div>
+</body>
+</html>
